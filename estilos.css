@@ -25,11 +25,22 @@ body {
 }
 
 .nav li {
+  display: inline-block;
+}
+
+.nav button {
   background-color: #388E3C;
-  padding: 10px 15px;
-  border-radius: 5px;
+  padding: 10px 20px;
   color: white;
-  cursor: default;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.nav button:hover {
+  background-color: #2C6B2F;
 }
 
 .main {
