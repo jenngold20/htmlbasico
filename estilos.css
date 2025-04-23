@@ -1,0 +1,43 @@
+/* Estilos generales para bloques semánticos */
+header, nav, main, section, article, aside, footer, picture, video,
+.header, .nav, .main, .section, .article, .aside, .footer, .picture, .video {
+  border: 2px solid #333;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* Colores contrastantes por sección */
+header, .header { background-color: #2c3e50; }
+nav, .nav { background-color: #34495e; }
+main, .main { background-color: #7f8c8d; }
+section, .section { background-color: #27ae60; }
+article, .article { background-color: #16a085; }
+aside, .aside { background-color: #8e44ad; }
+footer, .footer { background-color: #2c3e50; }
+picture, .picture { background-color: #d35400; }
+video, .video { background-color: #c0392b; }
+
+/* Estilos para navegación */
+nav ul, .nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+nav ul li, .nav ul li {
+  background-color: #2980b9;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li:hover, .nav ul li:hover {
+  background-color: #1c5980;
+}
